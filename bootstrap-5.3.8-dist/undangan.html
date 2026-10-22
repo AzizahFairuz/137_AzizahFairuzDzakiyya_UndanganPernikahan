@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alvin & May - Undangan Pernikahan</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <!-- File External CSS -->
+  <link rel="stylesheet" href="styleundangan.css">
+</head>
+<body>
+
+  <!-- Tombol Pemutar Musik Melayang -->
+  <div class="audio-icon-wrapper" id="audio-control">
+    <i class="bi bi-disc fs-3" id="audio-icon"></i>
+  </div>
+  <audio id="wedding-audio" loop>
+    <source src="Nyoman Paul, Andi Rianto – The Way You Look At Me (Official Music Video) - Paul Aro.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- COVER HALAMAN DEPAN -->
+  <div id="hero-cover">
+    <div class="text-center text-dark px-3">
+      <h1 class="calligraphy-title mb-2">Alvin and May</h1>
+      <p class="small tracking-widest text-uppercase mb-4">SAVE THE DATE &bull; 17 MEI 2030</p>
+      <button class="btn btn-custom-minimal" id="btn-buka">
+        Buka Undangan
+      </button>
+    </div>
+  </div>
+
+  <!-- KONTEN UTAMA FULL LAYAR -->
+  <main class="w-100">
+    
+    <!-- PAGE 1: HEADER SECTION -->
+    <section class="page-section text-center pb-0">
+      <div class="content-container">
+        <p class="small tracking-widest text-uppercase text-muted mb-2">Kami Akan Menikah</p>
+        <h1 class="calligraphy-title display-1 mb-4">Alvin and May</h1>
+        
+        <div class="header-photo-wrapper mb-5 mx-auto">
+          <img src="fotoundangan2.jpg" alt="Alvin and May" class="img-fluid grayscale-img header-img">
+        </div>
+      </div>
+
+      <!-- BARIS TEKS SUB-INFO -->
+      <div class="content-container pb-4 pt-3">
+        <div class="d-flex justify-content-between align-items-center sub-info-bar">
+          <span class="info-text">17 MEI 2030</span>
+          <span class="info-text underline-text">MOHON RSVP SEBELUM 15 APRIL 2030</span>
+          <span class="info-text">BALI, INDONESIA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2: FOTO HERO FULL LEBAR 100% LAYAR -->
+    <section class="p-0 m-0 w-100">
+      <img src="fotoundangan1.jpg" alt="Couple Large" class="img-fluid grayscale-img w-100 d-block full-width-banner">
+    </section>
+
+    <!-- PAGE 3: CERITA (KISAH CINTA DI TEPI PANTAI) -->
+    <section class="page-section pb-0">
+      <div class="content-container">
+        <div class="row align-items-center g-4 justify-content-between pb-5">
+          
+          <!-- Teks Kiri -->
+          <div class="col-md-5">
+            <h2 class="calligraphy-title fs-1 mb-3">Kisah Cinta</h2>
+            <p class="small text-muted lh-lg mb-0">
+              Kami berdoa semoga kisah cinta ini menginspirasi perjalanan Anda bersama. Kehadiran Anda secara langsung sangat berarti bagi kami untuk berbagi kebahagiaan serta cerita di balik perjalanan hidup kami.
+            </p>
+          </div>
+          
+          <!-- Dua Foto Kanan Sejajar -->
+          <div class="col-md-7 d-flex gap-3 justify-content-end align-items-center">
+            <div class="story-photo-box">
+              <img src="fotoundangan3.jpg" alt="Story 1" class="img-fluid grayscale-img story-img">
+            </div>
+            <div class="story-photo-box">
+              <img src="fotoundangan4.jpg" alt="Story 2" class="img-fluid grayscale-img story-img">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- GARIS PEMBATAS FULL 100% LEBAR LAYAR -->
+      <div class="full-width-line"></div>
+    </section>
+
+    <!-- PAGE 4: ACARA, RESEPSI, DRESS CODE -->
+    <section class="page-section pt-0 pb-0">
+      <div class="content-container">
+        <div class="text-center py-5 my-4 w-100">
+          <h4 class="serif-italic fs-3 mb-1">Upacara Pernikahan</h4>
+          <p class="small text-muted mb-4">Pernikahan intim di mana ombak memecah pantai dan matahari menyentuh pasir di Matahari Resort.</p>
+          
+          <h4 class="serif-italic fs-3 mb-1">Resepsi</h4>
+          <p class="small text-muted mb-4">Mari bergabung untuk menikmati hidangan lezat, minuman, dan perayaan bersama hingga malam.</p>
+          
+          <h4 class="serif-italic fs-3 mb-1">Busana</h4>
+          <p class="small text-muted mb-0">Formal / semi-formal berbahan katun, gaun santai, atau smart chic. Nuansa warna bumi atau samudra.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: FOTO BANNER FULL LEBAR -->
+    <section class="p-0 m-0 w-100">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80" alt="Wedding Celebration" class="img-fluid grayscale-img w-100 d-block full-width-banner">
+    </section>
+
+    <!-- PAGE 6: RANGKAIAN ACARA -->
+    <section class="page-section pb-0">
+      <div class="content-container">
+        <div class="row align-items-center g-4 pb-5">
+          <!-- Foto Kiri -->
+          <div class="col-md-5">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Beach View" class="img-fluid grayscale-img w-100 shadow-sm">
+          </div>
+          
+          <!-- List Jadwal Kanan -->
+          <div class="col-md-7 ps-md-5">
+            <div class="mb-4 pb-2 border-bottom border-dark border-opacity-25">
+              <span class="small text-muted text-uppercase tracking-widest d-block mb-1">HARI 1</span>
+              <h6 class="fw-bold mb-1">Kedatangan di Bali</h6>
+              <p class="small text-muted mb-0">Check-in, beristirahat, dan jelajahi Bali sesuka Anda. Bergabunglah untuk minum bersama pukul 18.00.</p>
+            </div>
+            <div class="mb-4 pb-2 border-bottom border-dark border-opacity-25">
+              <span class="small text-muted text-uppercase tracking-widest d-block mb-1">HARI 2</span>
+              <h6 class="fw-bold mb-1">Hari Santai</h6>
+              <p class="small text-muted mb-0">Nikmati waktu bersantai seperti berselancar, yoga, atau spa. Kami akan membagikan tempat favorit lokal kami.</p>
+            </div>
+            <div class="mb-4 pb-2 border-bottom border-dark border-opacity-25">
+              <span class="small text-muted text-uppercase tracking-widest d-block mb-1">HARI 3</span>
+              <h6 class="fw-bold mb-1">Hari Pernikahan</h6>
+              <p class="small text-muted mb-0">Upacara pernikahan pukul 16.00 di pantai pribadi Matahari Resort, dilanjutkan makan malam dan pesta.</p>
+            </div>
+            <div>
+              <span class="small text-muted text-uppercase tracking-widest d-block mb-1">HARI 4</span>
+              <h6 class="fw-bold mb-1">Brunch Perpisahan</h6>
+              <p class="small text-muted mb-0">Santap santai bersama sebelum kita saling berpamitan dan kembali.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GARIS PEMBATAS FULL 100% LEBAR LAYAR DI BAWAH HARI 4 -->
+      <div class="full-width-line"></div>
+    </section>
+
+    <!-- PAGE 7: PERTANYAAN UMUM (FAQ ACCORDION) -->
+    <section class="page-section pt-5 pb-0">
+      <div class="content-container">
+        <h2 class="calligraphy-title text-center mb-5" style="font-size: 3.8rem;">Frequently Asked Questions</h2>
+        
+        <!-- Accordion Bootstrap -->
+        <div class="accordion accordion-flush border-top border-dark border-opacity-25" id="faqAccordion">
+          
+          <div class="accordion-item bg-transparent border-bottom border-dark border-opacity-25 py-2">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed bg-transparent text-uppercase fw-medium small text-dark shadow-none px-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Penerbangan
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+              <div class="accordion-body px-0 pt-2 pb-3 small text-muted">
+                Para tamu mohon memesan tiket penerbangan selambat-lambatnya tanggal 15 Mei agar memiliki waktu istirahat dan menikmati pemandangan sebelum acara pernikahan.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item bg-transparent border-bottom border-dark border-opacity-25 py-2">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed bg-transparent text-uppercase fw-medium small text-dark shadow-none px-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Akomodasi
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+              <div class="accordion-body px-0 pt-2 pb-3 small text-muted">
+                Kami telah mencadangkan kamar di Matahari Resort dan akan membagikan kode diskon khusus melalui email. Anda juga diperbolehkan menginap di sekitar lokasi acara.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item bg-transparent border-bottom border-dark border-opacity-25 py-2">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-transparent text-uppercase fw-medium small text-dark shadow-none px-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Transportasi
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+              <div class="accordion-body px-0 pt-2 pb-3 small text-muted">
+                Matahari Resort dapat diakses menggunakan shuttle atau kendaraan pribadi. Tersedia area penjemputan khusus dan tempat parkir tamu.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item bg-transparent border-bottom border-dark border-opacity-25 py-2">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed bg-transparent text-uppercase fw-medium small text-dark shadow-none px-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Hadiah Pernikahan
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+              <div class="accordion-body px-0 pt-2 pb-3 small text-muted">
+                Kehadiran dan doa restu Anda adalah hadiah terindah bagi kami! Untuk tanda kasih digital:
+                <div class="registry-card d-flex align-items-center justify-content-between p-2 mt-3 bg-white border border-dark border-opacity-25">
+                  <span class="fw-semibold text-dark small">BCA: 9876-5432-10 (Alvin & May)</span>
+                  <button class="btn btn-sm btn-outline-dark rounded-0 py-1 px-3 text-uppercase" id="btn-copy" style="font-size: 11px; letter-spacing: 1px;">Salin</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- GARIS PEMBATAS FULL 100% LEBAR LAYAR DI BAWAH FAQ -->
+      <div class="full-width-line mt-5"></div>
+    </section>
+
+    <!-- PAGE 8: BANNER BAWAH -->
+    <section class="p-0 m-0 w-100">
+      <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1600&q=80" alt="Bottom Banner" class="img-fluid grayscale-img w-100 d-block full-width-banner">
+    </section>
+
+    <!-- PAGE 9: CONTACT DETAILS (PERSIS SESUAI DESAIN ACUAN) -->
+    <section class="page-section py-5">
+      <div class="content-container">
+        <div class="row align-items-center g-5">
+          
+          <!-- Kiri: Detail Kontak & Tombol Aksi -->
+          <div class="col-md-6 pe-md-4">
+            <h2 class="calligraphy-title display-4 mb-4" style="font-size: 3.8rem;">Contact Details</h2>
+            
+            <!-- Kontak Alvin Castro -->
+            <div class="row mb-4 small text-dark lh-lg">
+              <div class="col-6">
+                <div class="fw-normal">Alvin Castro</div>
+                <div class="text-muted">@reallygreatsite</div>
+              </div>
+              <div class="col-6">
+                <div>(123) 456-7890</div>
+                <div>(123) 456-7890</div>
+                <div class="mt-2">hello@reallygreatsite.com</div>
+              </div>
+            </div>
+
+            <!-- Kontak May Domingo -->
+            <div class="row mb-5 small text-dark lh-lg">
+              <div class="col-6">
+                <div class="fw-normal">May Domingo</div>
+                <div class="text-muted">@reallygreatsite</div>
+              </div>
+              <div class="col-6">
+                <div>(123) 456-7890</div>
+                <div>(123) 456-7890</div>
+                <div class="mt-2">hello@reallygreatsite.com</div>
+              </div>
+            </div>
+
+            <!-- Tombol Aksi (RSVP HERE & GIFT REGISTRY) -->
+            <div class="d-flex gap-3 pt-2">
+              <button class="btn btn-dark rounded-0 px-4 py-2 text-uppercase tracking-widest small fw-semibold" data-bs-toggle="modal" data-bs-target="#rsvpModal" style="font-size: 11px;">
+                RSVP HERE
+              </button>
+              <a href="#faqAccordion" class="btn btn-outline-dark rounded-0 px-4 py-2 text-uppercase tracking-widest small fw-semibold text-decoration-none" style="font-size: 11px;">
+                GIFT REGISTRY
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Kanan: Foto Pasangan Editorial -->
+          <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Couple Editorial" class="img-fluid grayscale-img w-100 d-block shadow-sm">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL POPUP RSVP SIMPEL -->
+  <div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-0 border-dark border-opacity-25 p-3" style="background-color: var(--bg-card);">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="serif-italic fs-4 mb-0" id="rsvpModalLabel">Konfirmasi Kehadiran</h5>
+          <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pt-3">
+          <p class="small text-muted mb-4">Mohon konfirmasi kehadiran Anda sebelum 15 April 2030.</p>
+          <form id="rsvp-modal-form">
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-sm rounded-0 border-dark border-opacity-25" placeholder="Nama Lengkap" required>
+            </div>
+            <div class="mb-3">
+              <select class="form-select form-select-sm rounded-0 border-dark border-opacity-25" required>
+                <option value="" disabled selected>Pilih Kehadiran</option>
+                <option value="Hadir">Hadir dengan Bahagia</option>
+                <option value="Berhalangan">Berhalangan Hadir</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-dark btn-sm rounded-0 w-100 text-uppercase tracking-widest py-2" style="font-size: 11px;">Kirim RSVP</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="py-4 text-center border-top border-dark border-opacity-25">
+    <p class="small mb-0 text-uppercase tracking-widest">&copy; 2030 Website Pernikahan Alvin & May</p>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- File External JavaScript -->
+  <script src="scriptundangan.js"></script>
+</body>
+</html>
